@@ -63,3 +63,6 @@ require("tokyonight").setup {
 	}
 }
 
+vim.opt.colorcolumn="0"
+vim.cmd("highlight LineNr guifg=#FFFFFF")
+vim.cmd("highlight SignColumn guibg=NONE")
