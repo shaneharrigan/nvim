@@ -5,6 +5,7 @@ lsp_zero.on_attach(function(client, bufnr)
     -- to learn the available actions
     lsp_zero.default_keymaps({buffer = bufnr})
 end)
+
 local cmp = require('cmp')
 local cmp_select = {behavior = cmp.SelectBehavior.Select}
 local cmp_mappings = lsp_zero.defaults.cmp_mappings({
