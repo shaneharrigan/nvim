@@ -5,6 +5,7 @@ lsp_zero.on_attach(function(client, bufnr)
     -- to learn the available actions
     lsp_zero.default_keymaps({buffer = bufnr})
 end)
+
 local cmp = require('cmp')
 local cmp_select = {behavior = cmp.SelectBehavior.Select}
 local cmp_mappings = lsp_zero.defaults.cmp_mappings({
@@ -34,7 +35,7 @@ require('mason-lspconfig').setup({
     -- Replace the language servers listed here 
     -- with the ones you want to install
     ensure_installed = {'tsserver', 'rust_analyzer', 'jdtls', 'bashls',
-    'clangd','cssls','html','jsonls','lua_ls',
+    'clangd','cssls','html','jsonls','lua_ls', 'emmet_language_server',
     'jedi_language_server','sqlls','yamlls'},
     handlers = {
         lsp_zero.default_setup,
