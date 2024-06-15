@@ -8,7 +8,6 @@ require("lazy").setup({
     "nvim-lua/plenary.nvim",
     "nvim-treesitter/nvim-treesitter",
     "folke/tokyonight.nvim",
-    "theprimeagen/harpoon",
     "mbbill/undotree",
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
