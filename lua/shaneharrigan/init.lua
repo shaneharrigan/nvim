@@ -6,7 +6,6 @@ require("lazy").setup({
     "nvim-telescope/telescope.nvim",
     "folke/which-key.nvim",
     "nvim-lua/plenary.nvim",
-    "nvim-treesitter/nvim-treesitter",
     "folke/tokyonight.nvim",
     "mbbill/undotree",
     "williamboman/mason.nvim",
